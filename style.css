@@ -1,0 +1,245 @@
+/* card */
+.card{
+    width: 280px;
+    border: 2px solid lightgray;
+    border-radius: 14px;
+    margin: 100px auto;
+    padding: 10px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-header{
+    position: relative;
+}
+
+.food{
+    width: 100%;
+    border-radius: 14px;  
+}
+
+.dscnt{
+    background-color: #266FEF;
+    display: inline;
+    padding: 1px 3px 1px 3px;
+    font-size: small;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 1px;
+}
+
+.ad{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: none;
+    font-size: x-small;
+    padding: 0px 4px;
+    font-weight: 500;
+    color: rgb(212, 212, 212);
+    position: absolute;
+    top: 10px;
+    left: 4px;
+}
+
+.dv-time{
+    display: inline;
+    background-color: white;
+    font-weight: 700;
+    font-size:12px;
+    position: absolute;
+    right: 4px;
+    bottom: 15px;
+    border-radius: 4px;
+    padding: 2px 3px;
+}
+
+.content{
+    text-align: left;
+}
+
+.name{
+    margin: 2px;
+    color: #1c1c1c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+.genre{
+    margin: 5px 5px 25px 5px;
+    font-weight: 500;
+
+}
+
+.clr{
+    color: #6B6B6B;
+}
+
+.icon{
+    width: 17%;
+    display: inline;
+}
+
+.ft-cntnt{
+    margin: 2px 0px;
+    font-size: 9px;
+    font-weight: bolder;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.footer{
+    position: relative;
+    border-top: 2px solid lightgray;
+    padding-top: 9px;
+}
+
+/* bali */
+
+.bg{
+    width: 780px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    margin: 70px auto;
+    position: relative;
+}
+
+.bg-img{
+    width: 100%;
+    border-radius: 16px;
+    position: relative;
+}
+
+.content-b{
+    position:absolute;
+    bottom: 100px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn{
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    padding: 16px 30px;
+    
+    font-size: 16px;
+}
+
+/* zomato */
+.zmt-bg{
+    width: 1100px;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    position: relative;
+}
+
+.zmt-img{
+    width: 100%;
+    height: 400px;
+}
+
+.title-img{
+    position: absolute;
+    top: 125px;
+    width: 20%;
+    left: 430px;
+}
+
+.mid{
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    font-size: 30px;
+    font-weight:500 ;
+    color: white;
+}
+
+.search-bar{
+    width: 645px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 220px;
+}
+
+.lctn{
+    width:20px;
+    color: #FF7E8B;
+    border-radius: 25%;
+    margin-left:5px ;
+    margin-top: 4px;
+}
+
+.search-icon{
+    width: 25px;
+    margin-top: 4px;
+}
+
+
+.zmt-input{
+    width: 40%;
+    font-size: 25px;
+    border: none;
+    font-size: x-large;
+}
+.srch-lctn{
+    width: 30%;
+    font-size: 25px;
+    border: none;
+}
+
+
+/* profile */
+.cover-pg{
+    width: 600px;
+    margin:  auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+    border: 3px solid lightgray;
+}
+
+.jpn-bg{
+    width: 100%;
+    filter: blur(1.5px);
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+
+}
+
+.user{
+    position: absolute;
+    height: 150px;
+    left: 225px;
+    bottom: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    
+}
+
+.cv-title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    color: #191919;
+}
+
+.info{
+    text-align: center;
+    margin-top: 5px;
+    color: #707070;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
